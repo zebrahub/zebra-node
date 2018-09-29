@@ -1,4 +1,9 @@
-import { Controller } from '@nestjs/common';
+import { Controller, Get } from '@nestjs/common';
 
 @Controller('queries')
-export class QueriesController {}
+export class QueriesController {
+  @Get()
+  root(): string {
+    return 'Hello Query';
+  }
+}
