@@ -4,7 +4,7 @@
   "port": 5432,
   "username": "root",
   "password": "root",
-  "database": "zebra-development",
+  "database": "zebra_development",
   "entities": ["src/**/*.entity{.ts,.js}"],
   "synchronize": true
 }
